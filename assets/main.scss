@@ -16,3 +16,35 @@ a {
     color: #551a8b !important;
   }
 }
+/* 블로그 전체 폭을 좁게 해서 가독성 높이기 */
+.page-content {
+  max-width: 700px; /* 위키 느낌의 핵심: 폭을 좁혀서 읽기 편하게 */
+  margin: 0 auto;
+}
+
+/* 글자 크기 및 간격 조정 */
+body {
+  font-size: 18px; /* 글자 크기 키우기 */
+  line-height: 1.8; /* 줄 간격 넓히기 */
+  color: #333; /* 완전 검은색보다 눈이 편한 진한 회색 */
+}
+/* 링크 디자인 예쁘게 하기 */
+a {
+  color: #0070c9; /* 파란색 계열 */
+  text-decoration: none; /* 밑줄 없애기 */
+  border-bottom: 1px solid #0070c9; /* 밑줄 대신 하단 선 추가 (위키 스타일) */
+}
+
+a:hover {
+  background-color: #f0f7ff; /* 마우스를 올리면 배경색 바뀌게 */
+}
+body {
+  background-color: #fafafa; /* 아주 연한 회색 배경 */
+}
+
+/* 글 읽는 영역을 흰색으로 만들어 종이처럼 보이게 하기 */
+.wrapper {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px; /* 모서리 살짝 둥글게 */
+}
