@@ -16,3 +16,11 @@ collections:
       - { label: "작성일자", name: "date", widget: "datetime" }
       - { label: "설명(요약)", name: "description", widget: "string", required: false }
       - { label: "내용", name: "body", widget: "markdown" }
+  - name: "wiki"
+    label: "위키(설정집)"
+    folder: "_wiki"
+    create: true
+    fields:
+      - {label: "제목", name: "title", widget: "string"}
+      - {label: "작성일자", name: "date", widget: "datetime"}
+      - {label: "내용", name: "body", widget: "markdown"}
