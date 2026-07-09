@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway # netlify 문지기를 쓰겠다는 신호로 변경!
+  name: git-gateway
   branch: main
 
 media_folder: "assets/images"
@@ -16,7 +16,6 @@ collections:
       - { label: "작성일자", name: "date", widget: "datetime" }
       - { label: "설명(요약)", name: "description", widget: "string", required: false }
       - { label: "내용", name: "body", widget: "markdown" }
-collections:
   - name: "wiki"
     label: "위키(설정집)"
     folder: "_wiki"
