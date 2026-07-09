@@ -1,0 +1,18 @@
+---
+---
+@import "minima";
+
+body {
+  background-color: #e0e0e0 !important; 
+  font-family: 'Gulim', '굴림', 'Courier New', monospace !important; 
+  color: #111111 !important; 
+}
+
+a {
+  color: #0000ee !important; 
+  text-decoration: underline !important;
+  
+  &:visited {
+    color: #551a8b !important;
+  }
+}
