@@ -4,6 +4,6 @@
 
 layout: home
 ---
-<a href="/admin" style="padding: 10px; background: #eee; border-radius: 5px; text-decoration: none; color: #333; font-weight: bold;">
+<!--<a href="/admin" style="padding: 10px; background: #eee; border-radius: 5px; text-decoration: none; color: #333; font-weight: bold;">
   ⚙️ 관리자 페이지 바로가기
-</a>
+</a>-->
