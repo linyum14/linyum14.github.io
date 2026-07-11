@@ -1,7 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: linyum14/linyum14.github.io  # 예: jian/my-blog
   branch: main
 
+# 아래 내용은 그대로 두셔도 됩니다
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
